@@ -1,0 +1,100 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  .Login {
+    width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Login h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .Login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Login label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .Login input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .Login button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .Login button:hover {
+    background-color: #555;
+  }
+  
+  
+  .UserList {
+    width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #333;
+  }
+  
+  .UserList input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .UserList ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .UserList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .UserList li:last-child {
+    border-bottom: none;
+  }
+  
+  .UserList li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .UserList li::before {
+    /* content: ""; */
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 500px) {
+    .UserList {
+      width: 90%;
+    }
+  }
+  
